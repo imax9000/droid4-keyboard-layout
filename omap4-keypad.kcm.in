@@ -27,70 +27,91 @@ type ALPHA
 key A {
     label:                              'A'
     base:                               'a'
-    shift, capslock:                    'A'
+    shift:                              'A'
+    capslock:                           'ф'
+    shift+capslock:                     'Ф'
     ctrl, alt, meta:                    none
 }
 
 key B {
     label:                              'B'
     base:                               'b'
-    shift, capslock:                    'B'
+    shift:                              'B'
+    capslock:                           'и'
+    shift+capslock:                     'И'
     ctrl, alt, meta:                    none
 }
 
 key C {
     label:                              'C'
     base:                               'c'
-    shift, capslock:                    'C'
+    shift:                              'C'
+    capslock:                           'с'
+    shift+capslock:                     'С'
     ctrl, alt, meta:                    none
+    alt+capslock:                       '©'
 }
 
 key D {
     label:                              'D'
     base:                               'd'
-    shift, capslock:                    'D'
+    shift:                              'D'
+    capslock:                           'в'
+    shift+capslock:                     'В'
     ctrl, alt, meta:                    none
 }
 
 key E {
     label:                              'E'
     base:                               'e'
-    shift, capslock:                    'E'
+    shift:                              'E'
+    capslock:                           'у'
+    shift+capslock:                     'У'
     ctrl, alt, meta:                    none
 }
 
 key F {
     label:                              'F'
     base:                               'f'
-    shift, capslock:                    'F'
+    shift:                              'F'
+    capslock:                           'а'
+    shift+capslock:                     'А'
     ctrl, alt, meta:                    none
 }
 
 key G {
     label:                              'G'
     base:                               'g'
-    shift, capslock:                    'G'
+    shift:                              'G'
+    capslock:                           'п'
+    shift+capslock:                     'П'
     ctrl, alt, meta:                    none
 }
 
 key H {
     label:                              'H'
     base:                               'h'
-    shift, capslock:                    'H'
+    shift:                              'H'
+    capslock:                           'р'
+    shift+capslock:                     'Р'
     ctrl, alt, meta:                    none
 }
 
 key I {
     label:                              'I'
     base:                               'i'
-    shift, capslock:                    'I'
+    shift:                              'I'
+    capslock:                           'ш'
+    shift+capslock:                     'Ш'
     ctrl, alt, meta:                    none
 }
 
 key J {
     label:                              'J'
     base:                               'j'
-    shift, capslock:                    'J'
+    shift:                              'J'
+    capslock:                           'о'
+    shift+capslock:                     'О'
     ctrl:                               none
 	alt, meta:                    '|'
 }
@@ -98,7 +119,9 @@ key J {
 key K {
     label:                              'K'
     base:                               'k'
-    shift, capslock:                    'K'
+    shift:                              'K'
+    capslock:                           'л'
+    shift+capslock:                     'Л'
     ctrl:                             none 
 	alt, meta:                    '['
 }
@@ -106,7 +129,9 @@ key K {
 key L {
     label:                              'L'
     base:                               'l'
-    shift, capslock:                    'L'
+    shift:                              'L'
+    capslock:                           'д'
+    shift+capslock:                     'Д'
     ctrl:                                none 
 	alt, meta:                    ']'
 }
@@ -114,21 +139,28 @@ key L {
 key M {
     label:                              'M'
     base:                               'm'
-    shift, capslock:                    'M'
+    shift:                              'M'
+    capslock:                           'ь'
+    shift+capslock:                     'Ь'
     ctrl, alt, meta:                    none
 }
 
 key N {
     label:                              'N'
     base:                               'n'
-    shift, capslock:                    'N'
+    shift:                              'N'
+    capslock:                           'т'
+    shift+capslock:                     'Т'
     ctrl, alt, meta:                    none
+    alt+capslock:                       '™'
 }
 
 key O {
     label:                              'O'
     base:                               'o'
-    shift, capslock:                    'O'
+    shift:                              'O'
+    capslock:                           'щ'
+    shift+capslock:                     'Щ'
     ctrl:                               none 
 	alt, meta:                    '{'
 }
@@ -136,7 +168,9 @@ key O {
 key P {
     label:                              'P'
     base:                               'p'
-    shift, capslock:                    'P'
+    shift:                              'P'
+    capslock:                           'з'
+    shift+capslock:                     'З'
     ctrl:                               none 
 	alt, meta:                    '}'
 }
@@ -144,7 +178,9 @@ key P {
 key Q {
     label:                              'Q'
     base:                               'q'
-    shift, capslock:                    'Q'
+    shift:                              'Q'
+    capslock:                           'й'
+    shift+capslock:                     'Й'
     ctrl:                             none 
 	alt, meta:                    '~'
 }
@@ -152,63 +188,86 @@ key Q {
 key R {
     label:                              'R'
     base:                               'r'
-    shift, capslock:                    'R'
+    shift:                              'R'
+    capslock:                           'к'
+    shift+capslock:                     'К'
     ctrl, alt, meta:                    none
+    alt+capslock:                       '®'
 }
 
 key S {
     label:                              'S'
     base:                               's'
-    shift, capslock:                    'S'
+    shift:                              'S'
+    capslock:                           'і'
+    shift+capslock:                     'І'
     ctrl, alt, meta:                    none
+    alt+capslock:                       'ы'
+    alt+shift+capslock:                 'Ы'
 }
 
 key T {
     label:                              'T'
     base:                               't'
-    shift, capslock:                    'T'
+    shift:                              'T'
+    capslock:                           'е'
+    shift+capslock:                     'Е'
     ctrl, alt, meta:                    none
+    alt+capslock:                       'ё'
+    alt+shift+capslock:                 'Ё'
 }
 
 key U {
     label:                              'U'
     base:                               'u'
-    shift, capslock:                    'U'
+    shift:                              'U'
+    capslock:                           'г'
+    shift+capslock:                     'Г'
     ctrl, alt, meta:                    none
 }
 
 key V {
     label:                              'V'
     base:                               'v'
-    shift, capslock:                    'V'
+    shift:                              'V'
+    capslock:                           'м'
+    shift+capslock:                     'М'
     ctrl, alt, meta:                    none
 }
 
 key W {
     label:                              'W'
     base:                               'w'
-    shift, capslock:                    'W'
+    shift:                              'W'
+    capslock:                           'ц'
+    shift+capslock:                     'Ц'
     ctrl, alt, meta:                    none
 }
 
 key X {
     label:                              'X'
     base:                               'x'
-    shift, capslock:                    'X'
+    shift:                              'X'
+    capslock:                           'ч'
+    shift+capslock:                     'Ч'
     ctrl, alt, meta:                    none
 }
 
 key Y {
     label:                              'Y'
     base:                               'y'
-    shift, capslock:                    'Y'
+    shift:                              'Y'
+    capslock:                           'н'
+    shift+capslock:                     'Н'
     ctrl, alt, meta:                    none
 }
 
 key Z {
     label:                              'Z'
     base:                               'z'
-    shift, capslock:                    'Z'
+    shift:                              'Z'
+    capslock:                           'я'
+    shift+capslock:                     'Я'
     ctrl, alt, meta:                    none
 }
 
@@ -217,6 +276,10 @@ key 0 {
     base:                               '0'
     shift:                              ')'
     ctrl, alt, meta:                    none
+    ctrl+capslock:                      'ї'
+    ctrl+shift+capslock:                'Ї'
+    alt+ctrl+capslock:                  'ъ'
+    alt+ctrl+shift+capslock:            'Ъ'
 }
 
 key 1 {
@@ -273,6 +336,8 @@ key 8 {
     base:                               '8'
     shift:                              '*'
     ctrl, alt, meta:                    none
+    ctrl+capslock:                      'ж'
+    ctrl+shift+capslock:                'Ж'
 }
 
 key 9 {
@@ -280,6 +345,8 @@ key 9 {
     base:                               '9'
     shift:                              '('
     ctrl, alt, meta:                    none
+    ctrl+capslock:                      'х'
+    ctrl+shift+capslock:                'Х'
 }
 
 key SPACE {
@@ -306,24 +373,35 @@ key COMMA {
     label, number:                      ','
     base:                               ','
     shift:                              ';'
+    capslock:                           'б'
+    shift+capslock:                     'Б'
     ctrl:                              none 
 	alt, meta:                    '<'
+    alt+capslock:                       '«'
+    alt+shift+capslock:                 '„'    
 }
 
 key PERIOD {
     label, number:                      '.'
     base:                               '.'
     shift:                              ':'
+    capslock:                           'ю'
+    shift+capslock:                     'Ю'
     ctrl:                              none 
 	alt, meta:                    '>'
+    alt+capslock:                       '»'
+    alt+shift+capslock:                 '“'    
 }
 
 key SLASH {
     label, number:                      '/'
     base:                               '/'
     shift:                              '?'
+    capslock:                           '.'
+    shift+capslock:                     ','
     ctrl:                              none 
 	alt, meta:                    '\\'
+    alt+capslock:                       '/'
 }
 
 key GRAVE {
@@ -338,6 +416,7 @@ key MINUS {
     base:                               '-'
     shift:                              '_'
     ctrl, alt, meta:                    none
+    alt+capslock:                       '—'
 }
 
 key EQUALS {
@@ -379,8 +458,12 @@ key APOSTROPHE {
     label, number:                      '\''
     base:                               '\''
     shift:                              '"'
+    capslock:                           'є'
+    shift+capslock:                     'Є'
     ctrl:                                none
 	alt, meta:                    '`'
+    alt+capslock:                       'э'
+    alt+shift+capslock:                 'Э'
 }
 
 key MEDIA_EJECT {
