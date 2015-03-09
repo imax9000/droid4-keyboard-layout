@@ -293,6 +293,7 @@ key 2 {
     label, number:                      '2'
     base:                               '2'
     shift:                              '@'
+    shift+capslock:                     '\"'
     ctrl, alt, meta:                    none
 }
 
@@ -300,6 +301,7 @@ key 3 {
     label, number:                      '3'
     base:                               '3'
     shift:                              '#'
+    shift+capslock:                     '№'
     ctrl, alt, meta:                    none
 }
 
@@ -307,6 +309,7 @@ key 4 {
     label, number:                      '4'
     base:                               '4'
     shift:                              '$'
+    shift+capslock:                     ';'
     ctrl, alt, meta:                    none
 }
 
@@ -321,6 +324,7 @@ key 6 {
     label, number:                      '6'
     base:                               '6'
     shift:                              '^'
+    shift+capslock:                     ':'
     ctrl, alt, meta:                    none
 }
 
@@ -328,6 +332,7 @@ key 7 {
     label, number:                      '7'
     base:                               '7'
     shift:                              '&'
+    shift+capslock:                     '?'
     ctrl, alt, meta:                    none
 }
 
